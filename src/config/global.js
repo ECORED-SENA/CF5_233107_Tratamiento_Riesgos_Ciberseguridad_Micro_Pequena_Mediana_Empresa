@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Evaluación de la ciberseguridad en la organización.',
+    componenteFormativo: 'Evaluación de la ciberseguridad en la organización',
     descripcionCurso:
-      'El componente aborda conceptos clave para la generación de métricas de seguridad: el Testing, y su propósito en la seguridad de la información, el SIEM, una forma de hacer gestión para prevenir problemas de seguridad, el SOC, sitio para centralizar la operación de seguridad de los sistemas computacionales, y por último el concepto de recopilación de información para el entorno de seguridad informática.',
+      'El componente aborda conceptos clave para la generación de métricas de seguridad: el <i>Testing</i>, y su propósito en la seguridad de la información, el SIEM, una forma de hacer gestión para prevenir problemas de seguridad, el SOC, sitio para centralizar la operación de seguridad de los sistemas computacionales, y por último el concepto de recopilación de información para el entorno de seguridad informática.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -66,7 +66,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Testing y monitoreo de la seguridad digital',
+        titulo: '<i>Testing</i> y monitoreo de la seguridad digital',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -94,7 +94,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Fundamentos de SIEM - Security Information and Event Management',
+          'Fundamentos de SIEM - <i>Security Information and Event Management</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -121,7 +121,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Fundamentos de SOC - Security Operation Center',
+        titulo: 'Fundamentos de SOC - <i>Security Operation Center</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -143,7 +143,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '5',
         titulo:
-          'Técnicas de recopilación de información (Information gathering)',
+          'Técnicas de recopilación de información (<i>Information gathering</i>)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -383,7 +383,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

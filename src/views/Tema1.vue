@@ -17,9 +17,6 @@
 
     p.mb-3 A continuación se pueden observar algunas consideraciones a la hora de emprender un programa de métricas de seguridad: 
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-left")
-        
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-8(data-aos="fade-left") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")

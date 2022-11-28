@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 4
-      h1 Fundamentos de SOC - Security Operation Center
+      h1 Fundamentos de SOC - <i>Security Operation Center</i>
 
     p.mb-3 El centro de operaciones de seguridad, más comúnmente llamado "el SOC", es una unidad centralizada que se ocupa de los problemas de seguridad tanto a nivel organizativo como técnico. Esto ocurre mediante el uso de personas, procesos y capacidades para prestar servicios que pueden incluir:
 

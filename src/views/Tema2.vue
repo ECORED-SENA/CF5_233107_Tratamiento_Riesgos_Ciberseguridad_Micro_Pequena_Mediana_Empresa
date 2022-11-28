@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 2
-      h1 Testing y monitoreo de la seguridad digital
+      h1 <i>Testing</i> y monitoreo de la seguridad digital
     
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-5(data-aos="fade-left")
@@ -84,7 +84,7 @@
 
     .col-lg-10.mt-3
       .jumbotron-3.p-2.mb-3
-        p.mb-0 Nota. Security controls evaluation, testing, and asssment handbook. J. Leighton (2019).  
+        p.mb-0 Nota. <i> Security controls evaluation, testing, and asssment handbook. J. Leighton (2019).</i>  
 
 
     Separador
@@ -332,7 +332,7 @@
 
     .row.justify-content-center.mb-5.bg.title-1
       .col-10.col-lg-6
-        h4.text-white.m-left Testing
+        h4.text-white.m-left <i>Testing</i>
 
 
     .row.align-items-center.justify-content-center.mb-5

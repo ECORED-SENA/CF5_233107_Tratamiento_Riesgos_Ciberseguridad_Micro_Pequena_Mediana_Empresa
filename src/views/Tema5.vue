@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 5
-      h1 Técnicas de recopilación de información (Information gathering)
+      h1 Técnicas de recopilación de información <i>(Information gathering)</i>
 
 
     .row.justify-content-center.align-items-center      
@@ -26,7 +26,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-left")
-        p.mb-3 A medida que se centralizan más y más datos, y las herramientas evolucionan para hacer un mejor trabajo de extracción de información clave, la capacidad de utilizar esto para el espionaje crece exponencialmente. Los big data y la informática/analítica son las principales áreas de crecimiento tecnológico en la actualidad, respondiendo a la necesidad de las organizaciones de aprovechar los datos almacenados para obtener resultados específicos
+        p.mb-3 A medida que se centralizan más y más datos, y las herramientas evolucionan para hacer un mejor trabajo de extracción de información clave, la capacidad de utilizar esto para el espionaje crece exponencialmente. Los big data y la informática/analítica son las principales áreas de crecimiento tecnológico en la actualidad, respondiendo a la necesidad de las organizaciones de aprovechar los datos almacenados para obtener resultados específicos.
 
         p.mb-3 Existen muchas herramientas de vigilancia, las que realizan tareas específicas de recopilación de información y otras en las que se puede recopilar y correlacionar información, algunas de ellas se destacan en la siguiente imagen: 
       .col-12.col-lg-5(data-aos="fade-right") 

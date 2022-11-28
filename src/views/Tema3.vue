@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero 
         span 3
-      h1 Fundamentos de SIEM - Security Information and Event Management
+      h1 Fundamentos de SIEM - <i>Security Information and Event Management</i>
 
     .row.align-items-center.justify-content-center.fondo-4.mb-5.p-4
       .col-10.col-lg-4.col-sm-8(data-aos="fade-left")
@@ -93,7 +93,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-12.col-lg-5.col-sm-8(data-aos="fade-left")
           img(src='@/assets/curso/images/tema3/img_7.jpg'  alt='').mb-3
-      .col-lg-12(data-aos="fade-right") 
+      .col-lg-7(data-aos="fade-right") 
         p.mb-3 Implementar un sistema SIEM no es un asunto de poca monta económicamente hablando, por lo que es necesario justificar adecuadamente la propuesta.  Al proporcionar una visión más completa de las operaciones de TI y sobre la seguridad y protección de los activos valiosos de información dentro de organización, se espera que con un sistema SIEM en funcionamiento, la empresa experimente menos pérdidas, que, llevadas a costos, compensan el precio del SIEM:
 
         ul.lista-ul--color.mt-3
