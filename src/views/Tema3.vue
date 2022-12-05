@@ -23,7 +23,7 @@
     Separador
 
     #t_3_1.titulo-segundo
-      .h4 3.1  Tipos
+      .h2 3.1  Tipos
 
     p.mb-3 Ahora se debe revisar algunas consideraciones relacionadas con la tipología del sistema SIEM, partiendo de la gestión de registros, que implica las acciones descritas a continuación:
 
@@ -88,7 +88,7 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h4 3.2  Características
+      .h2 3.2  Características
 
     .row.align-items-center.justify-content-center.mb-5
       .col-12.col-lg-5.col-sm-8(data-aos="fade-left")
@@ -112,7 +112,7 @@
     Separador
 
     #t_3_3.titulo-segundo
-      .h4 3.3  Aplicación
+      .h2 3.3  Aplicación
 
     .rectangle_03.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center

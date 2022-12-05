@@ -19,7 +19,7 @@
 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-8(data-aos="fade-left") 
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Las métricas son un viaje, no el destino")
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Una vez establecido un programa de métricas de seguridad, preguntarse cómo los resultados han mejorado la comprensión de los sistemas y procesos de seguridad. 
@@ -40,7 +40,7 @@
       .col-8.col-lg-4(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/img_3.svg'  alt='').mb-3
       .col-lg-8(data-aos="fade-right") 
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="No es cuestión de recopilar muchos datos")
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Un pequeño conjunto de datos, bien entendido y aplicado regularmente, es mucho más valioso que una montaña de datos sin utilizar.  
@@ -62,7 +62,7 @@
     .row.justify-content-center
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.mt-2
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.lg-0
@@ -70,7 +70,7 @@
 
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.mt-2
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.lg-0
@@ -78,7 +78,7 @@
 
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.mt-2
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.lg-0
@@ -89,11 +89,11 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
         p.mb-0 De todos los fenómenos que preocupan en el ámbito de la seguridad informática, el riesgo parece ser el primero de la lista. Pero, pese a su importancia, a menudo es uno de los conceptos menos comprendidos. Una matriz de riesgos de seguridad basada en juicios de expertos puede ser una estimación útil, pero sigue siendo un conjunto de opiniones sobre el riesgo. Los mayores problemas de seguridad identificados en la matriz no son necesariamente los mayores problemas de seguridad a los que se enfrenta la empresa. La esperanza es que los verdaderos riesgos de seguridad se correlacionen de alguna manera con las opiniones de los expertos responsables de la seguridad. 
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.m-top-1.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8
         img(src='@/assets/curso/images/tema1/fig_1.svg')
-        
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.mb-5          
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-left")
@@ -107,6 +107,7 @@
       SlyderA(tipo="b")
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-5
+            h3.mb-3 Utilizar la matriz para crear un prototipo de nuevas evaluaciones de riesgos.
             p.mb-3 Utilizar la matriz para crear un prototipo de nuevas evaluaciones de riesgos.
 
             p.mb-3 Ante los resultados, plantearse ¿por qué?, pensando en preguntas de seguimiento que conducen a nuevas mediciones:
@@ -125,6 +126,7 @@
 
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-5
+            h3.mb-3 Medir las diferencias de acuerdo.
             p.mb-3 Medir las diferencias de acuerdo.
 
             p.mb-3 Comparar lo que piensan las diferentes personas de la organización sobre el riesgo, identificando las áreas en las que hay acuerdo o aquellas en las que hay amplia variación en las opiniones.  
@@ -141,7 +143,7 @@
     
     .row.align-items-center.justify-content-center.fondo-1.mb-5.p-4
       .col-7.col-lg-4(data-aos="fade-left")
-          img(src='@/assets/curso/images/tema1/img_7.svg'  alt='')
+          img(src='@/assets/curso/images/tema1/img_7.svg'  alt='').mb-3
       .col-lg-6(data-aos="fade-right") 
         p.mb-3 Los datos que se recogen con más frecuencia para entender la seguridad de la información tienen que ver con las vulnerabilidades del sistema y los esfuerzos para comprometerlas. 
 

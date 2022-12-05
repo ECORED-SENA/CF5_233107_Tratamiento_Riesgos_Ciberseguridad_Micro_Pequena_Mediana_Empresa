@@ -59,6 +59,13 @@
 .cs
   overflow-y: hidden
 
+
+.acordion
+  .tarjeta--gris
+    background-color: #F6F6F6  !important
+    &.acordion__activo
+      background-color: #E3F5F8 !important
+
 .titulo-principal__numero 
   min-width: 45px
   height: 45px
@@ -91,18 +98,35 @@
 .jumbotron-1
   background-image: url("../assets/curso/images/tema1/back_tarjeta.svg") !important
   background-repeat: no-repeat
-  background-size: cover
+  background-size: 100%
+  width: 355px
+  @media (max-width: 412px)
+    background-size: 100% 100% !important
+    margin-left: -84px !important
+    width: 400px !important
+  @media (max-width: 768px)
+    margin-left: 5px
+    background-size: cover
 
 .jumbotron-2
   background-image: url("../assets/curso/images/tema4/back_tarjeta.svg") !important
   background-repeat: no-repeat
-  background-size: cover
+  background-size: 100%
+  width: 355px
+  @media (max-width: $bp-max-md) 
+    background-size: contain
+    margin-left: -65px
+    width: 405px !important
 
 .jumbotron-3
   background-color: #E8E8E8
+  @media (max-width: $bp-max-md) 
+    width: 645px
+  @media (max-width: 412px)
+    width: 385px
 
 .fondo-1
-  background-image: url("../assets/curso/images/tema1/back_1.svg") !important
+  background-image: url("../assets/curso/images/tema1/back_2.svg") !important
   background-repeat: no-repeat
   background-size: cover
 
@@ -127,6 +151,22 @@
   background-image: url("../assets/curso/images/tema5/back.svg") !important
   background-repeat: no-repeat
   background-size: contain
+
+.fondo-6
+  background-image: url("../assets/curso/images/tema1/back_fig.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+  margin-left: 130px !important
+  @media (max-width: 412px)
+    margin-left: -14px !important
+
+
+
+
+.fondo-7
+  background-image: url("../assets/curso/images/tema2/back_1.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
 
 
 .bg_grad-01
@@ -218,6 +258,9 @@
   @media (max-width: $bp-max-md)
     background-color: none !important
 
+.c-check
+  color: #0540B7
+
 .vineta
   &::before
     content: url(../assets/curso/images/tema1/check-circle.svg)
@@ -225,6 +268,10 @@
 .vineta-1
   &::before
     content: url(../assets/curso/images/tema2/vineta.svg)
+
+.vineta-2
+  &::before
+    content: url(../assets/curso/images/tema4/vineta.svg)
 
 .bg.title
   background-image: url('../assets/curso/images/tema2/ico_text.svg')
@@ -242,6 +289,21 @@
   @media (max-width: $bp-max-md) 
     margin-left: 20px
     margin-top: 5px !important 
+
+.m-top
+  margin-top: -2px !important
+  width: 1245px
+  margin-left: -10px
+
+
+.m-top-1
+  margin-top: -35px !important
+  margin-left: 92px !important
+  @media (max-width: $bp-max-md) 
+    margin-left: 25px !important
+  @media (max-width: 412px)
+    margin-left: -1px !important
+
 
 .onTop
   position: relative
@@ -317,3 +379,22 @@
     .linea-tiempo-d__item__content
       background-color: #E6E1FB
       color: #000
+
+.linea-tiempo-d__item__content__title 
+  cursor: pointer
+  font-size: 18px
+  height: 110% !important
+  
+
+
+.linea-tiempo-d.color-secundario.especial .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+  color: #000
+  padding-top: 15px
+
+.linea-tiempo-d__item__content__title 
+  display: flex
+  align-items: center
+  height: 60px
+  cursor: pointer
+
+
