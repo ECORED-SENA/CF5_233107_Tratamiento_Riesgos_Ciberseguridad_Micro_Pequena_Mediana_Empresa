@@ -15,7 +15,7 @@
 
         p.mb-0 De acuerdo con la Guía para la evaluación de controles de seguridad (National Institute of Standards and Technology.[NIST], 2010, p. 9) un procedimiento de evaluación consiste en un conjunto de objetivos de evaluación, cada uno con un conjunto asociado de posibles métodos y objetos de evaluación, en donde cada objetivo de evaluación incluye un conjunto de declaraciones de determinación relacionadas con el control de seguridad o privacidad particular que se está evaluando. Las declaraciones de determinación están vinculadas al contenido del control de seguridad o privacidad para garantizar la trazabilidad de los resultados de la evaluación hasta los requisitos fundamentales del control. La aplicación de un procedimiento de evaluación a un control de seguridad o privacidad produce resultados de evaluación, que se reflejan en la eficacia general del control de seguridad o privacidad, determinando si el control se ha implementado correctamente, funciona según lo previsto y produce el resultado deseado en relación con los requisitos de seguridad del sistema o aplicación en cuestión (Ver figura a continuación): 
    
-    .row.justify-content-center.align-items-star.fondo-7.p-5.mb-5
+    .row.justify-content-center.align-items-star.fondo-7.p-2.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
@@ -288,7 +288,7 @@
 
     .row.align-items-center.justify-content-center.mb-5.bg.title
       .col-10.col-lg-6
-        h3.text-white.m-left.mt-2 Métodos de evaluación
+        h3.text-white.m-left.mt-2.mb-2 Métodos de evaluación
       
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
@@ -332,7 +332,7 @@
 
     .row.justify-content-center.mb-5.bg.title-1
       .col-10.col-lg-6
-        h3.text-white.m-left.mt-2 <i>Testing</i>
+        h3.text-white.m-left.mt-2.mb-2 <i>Testing</i>
 
 
     .row.align-items-center.justify-content-center.mb-5

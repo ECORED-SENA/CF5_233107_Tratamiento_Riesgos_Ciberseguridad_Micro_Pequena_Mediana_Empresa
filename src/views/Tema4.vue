@@ -71,12 +71,11 @@
             .col-md-12.col-lg-12.mb-4.mb-md-0
               p.mb-0 Las organizaciones deben realizar un análisis de las causas raíz al finalizar una evaluación para poder traducir los resultados en técnicas de mitigación procesables. Estos resultados pueden indicar que las organizaciones deben abordar no sólo las debilidades técnicas, sino también debilidades en procesos y procedimientos.
 
-          .row(titulo='Análisis' numero='3')
+          .row(titulo='Análisis' numero='4')
             .col-md-12.col-lg-12.mb-4.mb-md-0
-              h3.mb-3 Análisis
               p.mb-0 En esta etapa se deben analizar los eventos detectados para determinar si corresponden a amenazas reales o si son falsas alertas. Los sistemas SIEM ayudan en el proceso de análisis con su base de datos de conocimientos y experiencias anómalas, registradas previamente, así como en la configuración de las reglas de cumplimiento.
 
-          .row(titulo='Aplicar una metodología de evaluación' numero='4')
+          .row(titulo='Aplicar una metodología de evaluación' numero='5')
             .col-md-12.col-lg-12.mb-4.mb-md-0
               h3.mb-3 Respuesta 
               p.mb-0 Consiste en las acciones que se toman para responder frente a un evento o incidentes de ciberseguridad; las mismas deben estar planificadas de manera que se apliquen las medidas o controles de forma eficaz.
@@ -135,50 +134,50 @@
       .col-lg-10(data-aos="fade-left") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Gestión de riesgos")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_6.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Identificar y tomar decisiones para hacer frente a los riesgos de la organización. Desde la seguridad física de los activos hasta la corrección de las vulnerabilidades digitales que existen en el software. También aplica a la corrección de políticas deficientes y falta de educación en seguridad de los miembros de una organización.
 
           .row.justify-content-center.align-items-center(titulo="Gestión de la vulnerabilidad")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_7.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Identificar y gestionar el riesgo de las vulnerabilidades técnicas: detección de vulnerabilidades en el software que se encuentra en los servidores, los ordenadores portátiles y los dispositivos IoT. La mayoría de los SOC utilizan escáneres de vulnerabilidad e inteligencia de amenazas externa para identificar las vulnerabilidades.
 
           .row.justify-content-center.align-items-center(titulo="Gestión de incidentes")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_8.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Respuesta a eventos relacionados con seguridad: acciones como el aislamiento de los sistemas, la alerta a los miembros del equipo y la aplicación de medidas correctivas para resolver el problema. Tecnologías como las herramientas de orquestación, la inteligencia artificial y los playbooks se están haciendo muy populares para ayudar a los SOC en los servicios de respuesta a incidentes.
 
           .row.justify-content-center.align-items-center(titulo="Análisis")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_9.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Análisis de varios tipos de artefactos: identificación de características, ingeniería inversa, análisis de vulnerabilidad/explotación, análisis causa raíz, reparación y análisis de mitigación.  El análisis utiliza herramientas como IDA Pro para desmontar el malware y comprender su funcionamiento.
 
 
           .row.justify-content-center.align-items-center(titulo="Cumplimiento")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_10.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Evaluar y mantener los requisitos de cumplimiento de la organización: tanto los requisitos obligatorios por ley (HIPAA y PCI DSS), como los objetivos impulsados por la organización (norma NIST o ISO), que no son exigidos por la ley, pero que podrían ser considerados como una política requerida por la organización o sus clientes. 
 
           .row.justify-content-center.align-items-center(titulo="Análisis forense digital")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_11.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Recopilación de pruebas tras el incidente para determinar la causa y preparar acciones legales. La ciencia forense digital se distingue de la respuesta a incidentes y el análisis, en el aspecto legal relativo a la forma en que se recogen las pruebas (si se manipula un archivo durante la investigación, se arruina cualquier posibilidad de utilizar esa prueba en un tribunal).
 
           .row.justify-content-center.align-items-center(titulo="Conciencia de la situación y de la seguridad")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_12.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Proporcionar a la organización conciencia de su entorno operativo y de las posibles amenazas. Incluye educación sobre elementos críticos que podrían afectar los objetivos de la organización, amenazas potenciales y acciones contra el riesgo operativo y las amenazas.
 
           .row.justify-content-center.align-items-center(titulo="Investigación y desarrollo")
-            .col-8.col-lg-2.col-sm-4
+            .col-8.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema4/ico_13.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Investigar el panorama de las amenazas en constante evolución, desarrollar nuevas herramientas y técnicas, y modificar las herramientas existentes para mejorar su eficacia.

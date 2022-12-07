@@ -101,9 +101,18 @@
   background-size: 100%
   width: 355px
   @media (max-width: 412px)
-    background-size: 100% 100% !important
+    background-size: contain !important
     margin-left: -84px !important
-    width: 400px !important
+    width: 390px !important
+    margin-left: -80px !important
+    font-size: 14px
+  @media (max-width: 397px)
+    background-image: none !important
+    background-color: #E6E1FB
+    width: 280px !important
+    height: auto
+    margin-left: -30px !important
+    font-size: 12px
   @media (max-width: 768px)
     margin-left: 5px
     background-size: cover
@@ -113,9 +122,15 @@
   background-repeat: no-repeat
   background-size: 100%
   width: 355px
+  @media (max-width: 412px)
+    background-size: contain !important
+    margin-left: -84px !important
+    width: 390px !important
+    margin-left: -70px !important
+    font-size: 14px
   @media (max-width: $bp-max-md) 
     background-size: contain
-    margin-left: -65px
+    margin-left: 5px
     width: 405px !important
 
 .jumbotron-3
@@ -153,7 +168,7 @@
   background-size: contain
 
 .fondo-6
-  background-image: url("../assets/curso/images/tema1/back_fig.svg") !important
+  background-image: url("../assets/curso/images/tema1/back_fig_1.svg") !important
   background-repeat: no-repeat
   background-size: cover
   margin-left: 130px !important
@@ -277,6 +292,11 @@
   background-image: url('../assets/curso/images/tema2/ico_text.svg')
   background-repeat: no-repeat
   background-size: contain
+  @media (max-width: $bp-max-md)
+    background-size: 340px
+    height: 50px
+    background-repeat: no-repeat
+    margin-bottom: 20px !important
 
 .bg.title-1
   background-image: url('../assets/curso/images/tema2/ico_text-1.svg')

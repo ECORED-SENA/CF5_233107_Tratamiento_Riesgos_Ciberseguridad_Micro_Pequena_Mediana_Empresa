@@ -84,56 +84,56 @@
       .col-lg-10(data-aos="fade-left") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="La amenaza de Internet")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_1.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 La red pública de Internet es una “mina de oro” para quienes realizar labores de inteligencia.  Utilizada de forma no maliciosa resulta extremadamente útil, pero puede servir para reunir información y dirigir ataques.  Otro punto es que una vez se sube algo en un servidor (entrada de blog, archivo de datos) podría permanecer allí durante mucho tiempo, posiblemente para siempre.
 
           .row.justify-content-center.align-items-center(titulo="Motores de búsqueda")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_2.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Proporcionan gran cantidad de información a quienes saben cómo utilizarla. Las búsquedas de palabras clave y el refinamiento de los temas, así como el uso de herramientas y sitios web específicos, pueden dar a un atacante todo lo que necesita para comenzar la vigilancia de un objetivo.
 
           .row.justify-content-center.align-items-center(titulo="Phishing")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_3.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 En el phishing, un atacante puede hacerse pasar por una fuente legítima en Internet para engañar, haciendo creer al usuario que está en la entidad que intenta visitar. Al buscar en Internet, puede encontrar (o ir directamente a) un sitio web en el que desea realizar una operación. Por ejemplo, una cuenta bancaria en línea para realizar una transacción.
 
           .row.justify-content-center.align-items-center(titulo="Rastreo")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_4.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Otra forma de recopilar de información es a través de sitios web que rastrean quién es el usuario y de dónde viene. Esto puede utilizarse con fines de marketing, pero en manos de quienes desean hacer daño, puede utilizarse para rastrear intereses, ubicación, dispositivos digitales (como el PC) y datos de identidad.
 
 
           .row.justify-content-center.align-items-center(titulo="Redes sociales")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_5.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Están apareciendo en masa ofreciendo una manera de hacer negocios, compartir datos, conocer personas, encontrar nuevas oportunidades.  Pero, conlleva una gran responsabilidad en cuanto a la información que se comparte.  No debería sorprender que cuando una residencia es robada durante, por ejemplo, un período de vacaciones, la primera pregunta que se haga sea: ¿sabía alguien que estaba fuera?
 
           .row.justify-content-center.align-items-center(titulo="Escaneado, olfateo y mapeo")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_6.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Las redes cableadas se perciben más seguras que las inalámbricas, haciendo más difícil recopilar información por la dificultad de penetrar un cable para extraer información, pudiendo estropearlo y acabar con las señales que transportan la información. También producen por lo general una mayor velocidad de transmisión. Su principal debilidad: el tendido del cableado, costoso y más difícil de mantener.
 
           .row.justify-content-center.align-items-center(titulo="Conectado e inalámbrico")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_7.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 Examinan los niveles inferiores de las comunicaciones digitales, principalmente en la red a través de herramientas para capturar datos y realizar análisis a nivel de paquetes o escrutinio de puertos para reunir y verificar información sobre un objetivo. 
 
           .row.justify-content-center.align-items-center(titulo="Amenaza de dispositivos móviles")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_8.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 La mayor tendencia actual es el uso del dispositivo móvil, capaz de conectarse a las redes, incluida Internet, de forma inalámbrica.  Pero fácilmente manipulable por un usuario malintencionado debido a por ejemplo, la posibilidad de instalar aplicaciones de software (o apps, para abreviar) proveniente de muchas fuentes, que podría incluir software malicioso. 
 
           .row.justify-content-center.align-items-center(titulo="Amenaza de datos (metadatos)")
-            .col-3.col-lg-2.col-sm-6
+            .col-3.col-lg-2.col-sm-3
               img(src='@/assets/curso/images/tema5/ico_9.svg'  alt='', style="width:100px; display:block; margin:auto 0 ;")
             .col-md-12.col-lg-10.mb-4.mb-md-0
               p.mb-0 No hay mayor amenaza que ser rastreado en línea. Por ejemplo, al hacer fotos a través de teléfono inteligente, la información se almacena en metadatos, que permiten archivar imágenes y saber cuándo y dónde fueron tomadas.  Pero también, puede ser una fuente para que acosadores localicen ubicaciones exactas.

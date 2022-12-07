@@ -62,26 +62,26 @@
     .row.justify-content-center
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-2
+          .row.justify-content-center.align-items-center.mt-0
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
+            .col-6.col-lg-8.col-sm-12
               p.mb-0 Cualquier medida empírica que ayude a una organización a reducir la incertidumbre es una buena métrica. 
 
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-2
+          .row.justify-content-center.align-items-center.mt-0
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
+            .col-6.col-lg-8.lg-0.col-sm-12
               p.mb-0 Una métrica que deba descartarse simplemente porque no sea cuantitativa o específica.
 
       .col-8.col-lg-4.mb-3(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-2
+          .row.justify-content-center.align-items-center.mt-0
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
-            .col-6.col-lg-8.lg-0
+            .col-6.col-lg-8.lg-0.col-sm-12
               p.mb-0 Una métrica es buena simplemente porque sea fácil e inequívoca. 
       
     p.mb-3 Cualquier medición se vuelve problemática cuando se realiza de forma deficiente y cuando quienes miden no son suficientemente críticos con sus propios métodos. Los problemas que pueden surgir de los intentos poco sofisticados de medir la seguridad pueden incluir cuestiones de calidad de los datos, rigor empírico o el hecho de que las métricas se utilicen de forma inmadura o engañosa.
