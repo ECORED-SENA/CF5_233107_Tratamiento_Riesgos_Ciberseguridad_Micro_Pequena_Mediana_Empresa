@@ -59,26 +59,26 @@
 
     p.mb-5 Dadas sus limitaciones, algunas métricas pueden convertirse en indicadores engañosos de la eficacia de la seguridad.  Hay muchos argumentos sobre lo que hace que una métrica sea buena o mala: 
 
-    .row.justify-content-center
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
+    .row.justify-content-evenly.align-items-lg-stretch.mb-3
+      .col-sm-10.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-0
+          .row.justify-content-center.align-items-center
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.col-sm-12
               p.mb-0 Cualquier medida empírica que ayude a una organización a reducir la incertidumbre es una buena métrica. 
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
+      .col-sm-10.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-0
+          .row.justify-content-center.align-items-center
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.lg-0.col-sm-12
               p.mb-0 Una métrica que deba descartarse simplemente porque no sea cuantitativa o específica.
 
-      .col-8.col-lg-4.mb-3(data-aos="fade-right")
+      .col-sm-10.col-lg-3.mb-3.mb-lg-0(data-aos="fade-right")
         .jumbotron-1.p-2.mb-3.h-100
-          .row.justify-content-center.align-items-center.mt-0
+          .row.justify-content-center.align-items-center
             .col-3.col-lg-4.ps-2.pe-0
               img(src='@/assets/curso/images/tema1/ico_1.svg' alt='', style="width:90px; display:block; margin:auto 0 ;")
             .col-6.col-lg-8.lg-0.col-sm-12
@@ -89,7 +89,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
         p.mb-0 De todos los fenómenos que preocupan en el ámbito de la seguridad informática, el riesgo parece ser el primero de la lista. Pero, pese a su importancia, a menudo es uno de los conceptos menos comprendidos. Una matriz de riesgos de seguridad basada en juicios de expertos puede ser una estimación útil, pero sigue siendo un conjunto de opiniones sobre el riesgo. Los mayores problemas de seguridad identificados en la matriz no son necesariamente los mayores problemas de seguridad a los que se enfrenta la empresa. La esperanza es que los verdaderos riesgos de seguridad se correlacionen de alguna manera con las opiniones de los expertos responsables de la seguridad. 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.m-top-1.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.m-top-2.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8
         img(src='@/assets/curso/images/tema1/fig_1.svg')
